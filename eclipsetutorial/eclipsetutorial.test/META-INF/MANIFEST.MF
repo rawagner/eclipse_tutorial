@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: eclipsetutorial Test Fragment
+Bundle-SymbolicName: eclipsetutorial.test
+Bundle-Version: 0.0.1.qualifier
+Fragment-Host: eclipsetutorial.core;bundle-version="0.0.1"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5,
+ JavaSE-1.6
+Require-Bundle: org.eclipse.jdt.junit4.runtime;bundle-version="1.1.0",
+ org.junit;bundle-version="4.11",
+ org.jboss.reddeer.jface,
+ org.jboss.reddeer.swt,
+ org.jboss.reddeer.junit

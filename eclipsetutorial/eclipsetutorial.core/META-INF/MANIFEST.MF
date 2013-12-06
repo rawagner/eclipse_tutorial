@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: eclipsetutorial Core Plugin
+Bundle-SymbolicName: eclipsetutorial.core;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: cz.muni.fi.eclipsetutorial.core.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.debug.core,
+ org.eclipse.debug.ui,
+ org.eclipse.swt,
+ org.eclipse.jface,
+ org.eclipse.pde.launching,
+ org.eclipse.pde.ui
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: J2SE-1.5,
+ JavaSE-1.6

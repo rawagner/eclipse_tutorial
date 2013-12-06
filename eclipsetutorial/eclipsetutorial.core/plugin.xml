@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.newWizards">
+	<wizard name= "New Instance"
+		class="cz.muni.fi.eclipsetutorial.core.NewInstanceWizard"
+		id="cz.muni.fi.eclipsetutorial.core.newInstanceWizard"/>
+	</extension>   
+</plugin>
